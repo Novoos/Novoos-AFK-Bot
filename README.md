@@ -47,7 +47,7 @@ To deploy this project run
 
 ## Deploy to Cloud
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)]
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Novoos/Novoos-AFK-Bot)
 
 ## Author
 
