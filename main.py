@@ -89,7 +89,7 @@ async def afk(client, message):
             endtime += f"{h}h {m}m {s}s"
         else:
             endtime += f"{m}m {s}s" if m > 0 else f"{s}s"
-        await message.reply(f"Hello {message.chat.first_name}\n Currently I am not available \nReason: {reason} \n Last Seen: {endtime} ago \n**__Made with ❤️ by__**\n**__@NovoosEcosystem__** ")
+        await message.reply(f"Hello **{message.chat.first_name}**,\n\n**__Currently I am not available__**\n\n**Reason**: {reason} \n\nLast Seen: {endtime} ago \n\n**__Made with ❤️ by__**\n**__@NovoosEcosystem__** ")
 
 
 app.run()
