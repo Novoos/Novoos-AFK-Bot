@@ -1,0 +1,50 @@
+{
+    "stack": "container",
+    "name": "Novoos AFK Bot",
+    "description": "Let Everyone Know You are AFK",
+    "keywords": [
+      "productivity",
+      "telegram",
+      "userbot"
+    ],
+    "repository": "https://github.com/Novoos/Novoos-AFK-Bot",
+    "logo": "https://avatars.githubusercontent.com/u/103409469?v=4",
+    "success_url": "https://t.me/novoosecosystem",
+    "env": {
+      "API_ID": {
+        "description": "Your Telegram API_ID.",
+        "value": "",
+        "required": "True"
+      },
+      "API_HASH": {
+        "description": "Your Telegram API_HASH",
+        "value": " ",
+        "required": "True"
+      },
+      "SESSION": {
+        "description": "Your Telegram Account Session String",
+        "value": " ",
+        "required": "True"
+      },
+      "REDIS_URI": {
+        "description": "Your Redis Database Public Endpoint",
+        "value": " ",
+        "required": "True"
+      },
+      "REDIS_PASSWORD": {
+        "description": "Your Redis Database Password",
+        "value": " ",
+        "required": "True"
+      }
+      
+    },
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    }
+    
+      
+  }
+  
